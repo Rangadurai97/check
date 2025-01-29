@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Checkit {
 	@GetMapping("/getCheckit")
 	public String getCheckit() {
-		return "Checked Successfully";
+		return "Checked";
 	}
 
 }
